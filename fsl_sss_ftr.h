@@ -691,6 +691,9 @@
 #endif
 
 
+/* Added Manually for backward compatiblity */
+#define SSS_HAVE_APPLET_A71CH_SIM 0
+
 
 /* ========= Calculated values : END ======================== */
 

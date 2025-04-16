@@ -28,7 +28,7 @@
 #define SE05X_TLV_BUF_SIZE_RSP 900
 #endif
 
-#if !FLOW_SILENT
+#if NX_LOG_ENABLE_DEFAULT_WARN
 static const char *getErrorMessage(smStatus_t status)
 {
     switch (status) {
@@ -54,7 +54,7 @@ static const char *getErrorMessage(smStatus_t status)
         return "Error Not listed";
     }
 }
-#endif //!FLOW_SILENT
+#endif //NX_LOG_ENABLE_DEFAULT_WARN
 
 int tlvSet_U8(uint8_t **buf, size_t *bufLen, SE05x_TAG_t tag, uint8_t value)
 {
