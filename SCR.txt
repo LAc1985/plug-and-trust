@@ -12,5 +12,6 @@ Origin: NXP ( BSD-3-Clause)
             Mbed-TLS (Apache-2.0) Version: 3.6.2  - https://github.com/Mbed-TLS/mbedtls
             OpenSSL 1.1 (OpenSSL License) - https://github.com/openssl/openssl/tree/OpenSSL_1_1_1-stable
             openssl-3.0 (Apache 2.0) Version: OpenSSL 3.0.14 - https://github.com/openssl/openssl/tree/openssl-3.0.14
+            Connectedhomeip (Apache 2.0) Version: v1.4.0.0. - https://github.com/project-chip/connectedhomeip/tree/v1.4.0.0
 
 -----------------------------------
